@@ -1,0 +1,19 @@
+{
+  "name": "assignment-3",
+  "version": "1.0.0",
+  "description": "Assignment 3 - make use of MVC Structure to our web project",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
+    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vince Kirby Manuel",
+  "license": "ISC"
+}

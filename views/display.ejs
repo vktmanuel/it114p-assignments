@@ -1,0 +1,26 @@
+<%- include('includes/head.ejs') %>
+    <link rel="stylesheet" href="/css/displayView.css">
+</head>
+
+<body>
+    <%- include('includes/nav.ejs') %>
+
+    <main>
+        <% if (dt.length > 0) { %>
+            <div class="grid">
+                <% for (let data of dt) { %>
+                    <article class="card product-item">
+                        <header class="card__header">
+                        <h1 class="product__title"><%= data.user %></h1>
+                        <h1 class="product__title"><%= data.pass %></h1>
+                        </header>
+                    </header>
+                </article>
+                <% } %>
+            </div>
+        <% } else { %>
+            <h1>No Products Found!</h1>
+        <% } %>
+    </main>
+</body>
+</html>
