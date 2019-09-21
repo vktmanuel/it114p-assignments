@@ -7,13 +7,26 @@
    <%- include('includes/nav.ejs') %>
     <main>
         <form class="add-form" action="add-data" method="POST">
-            <div class="form-control">
-                <label for="title"></label>
-                Username<input type="text" name="user" id="title">
-            </div>
-            <div class="form-control">
-                Password<input type="text" name="pass" id="title1">
-            </div>
+                <div class="field">
+                        <label class="label">Username</label>
+                        <div class="control has-icons-left has-icons-right">
+                          <input class="input" type="text" name="user">
+                          <span class="icon is-small is-left">
+                            <i class="mdi mdi-24px mdi-account-check"></i>
+                          </span>
+                        </div>
+                      </div>
+              
+                      <div class="field">
+                            <label class="label">Password</label>
+                            <div class="control has-icons-right">
+                              <input class="input" type="password" name="pass">
+                              <span class="icon is-small is-right">
+                                <i class="mdi mdi-24px mdi-alert-circle"></i>
+                              </span>
+                            </div>
+                            
+                          </div>
 
             <button class="btn" type="submit">Add Data</button>
         </form>

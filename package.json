@@ -4,10 +4,11 @@
   "description": "Assignment 3 - make use of MVC Structure to our web project",
   "main": "app.js",
   "dependencies": {
+    "@mdi/font": "^4.4.95",
+    "bulma": "^0.7.5",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "nodemon": "^1.19.2"
-    
   },
   "devDependencies": {},
   "scripts": {
